@@ -1,7 +1,7 @@
 # pixel-shrinker
 Shrinks a pixel art image to original size using FFT analysis
 
-usage: python input.png output.png
+usage: python main.py input.png output.png
 
 It finds the most dominant edge frequency and resizes the image to the frequency.
 
