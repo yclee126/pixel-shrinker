@@ -3,6 +3,8 @@ Shrinks a pixel art image to original size using FFT analysis
 
 usage: python main.py input.png output.png
 
+requires opencv and numpy
+
 It finds the most dominant edge frequency and resizes the image to the frequency.
 
 At the moment this only works well with non-cropped images.
